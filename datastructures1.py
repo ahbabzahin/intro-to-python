@@ -1,0 +1,15 @@
+list=['apple','mango','banana','orange']
+print(len(list))
+print(list[-1])
+list.append('grape')
+print(list)
+list.remove('banana')
+print(list)
+list.pop(1)
+list.sort()
+print(list)
+list.reverse()
+print(list)
+print(list*2)
+list=list[1:3]
+print(list)
